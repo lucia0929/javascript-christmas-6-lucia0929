@@ -22,6 +22,29 @@
 
 <br>
 
+## 📑 용어 정리 📑
+
+1. [`DOCT`] : Documentation-Task
+   - `JIRA 설정` 및 기타 `문서` 작업
+
+2. [`PRLL`] : Pre-Learning-Log
+   - `사전` 학습 로그
+
+3. [`OGLL`] : Ongoing-Learning-Log
+   - `과정 중` 학습 로그
+
+4. [`TSTC`] : Test-Code
+   - `테스트 코드` 관련 작업
+
+5. [`IMPC`] : Implementation-Code
+   - `구현 코드` 관련 작업
+
+<br>
+
+---
+
+<br>
+
 ## ⚙️`(DOCT-X)` 문서 작업 ⚙️
 
 
@@ -31,27 +54,53 @@
 ⚙️ DOCT-1 부터 시작한다
 
 ⚙️ DOCT 라벨로 JIRA 설정 및 기타 문서 작업을 관리한다
+
+⚙️ 하위 이슈는 들여쓰기를 통해 나타낸다
 ```
 
 
 
-DOCT-1. [☑️] `JIRA` 용어 이해
+⚙️ DOCT-1. `JIRA` 용어 이해 [☑️]
 
-DOCT-2. [☑️] `Github` 연동
+⚙️ DOCT-2. `Github` 연동 [☑️]
 
-DOCT-3. [☑️] `commit` 연동 테스트
+⚙️ DOCT-3. `commit` 연동 테스트 [☑️]
 
-DOCT-4. [☑️] `DOCT` `스프린트` 구성 및 작성
+⚙️ DOCT-4. `DOCT` `스프린트` 구성 및 작성 [☑️]
 
-DOCT-5. [☑️] `PRLL(Pre-Learning-Log)` `프로젝트` 생성
+⚙️ DOCT-5. `PRLL(Pre-Learning-Log)` `프로젝트` 생성 [☑️]
 
-DOCT-6. [☑️] `OGLL(Ongoing-Learning-Log)` `프로젝트` 생성
+⚙️ DOCT-6. `OGLL(Ongoing-Learning-Log)` `프로젝트` 생성 [☑️]
 
-DOCT-7. [☑️] `TSTC(Test-Code)` `프로젝트` 생성
+⚙️ DOCT-7. `TSTC(Test-Code)` `프로젝트` 생성 [☑️]
 
-DOCT-8. [☑️] `IMPC(Implementation-Code)` `프로젝트` 생성
+⚙️ DOCT-8. `IMPC(Implementation-Code)` `프로젝트` 생성 [☑️]
 
-DOCT-9. [☑️] `README.md` 업데이트
+⚙️ DOCT-9. `README.md` 업데이트 [☑️]
+
+⚙️ DOCT-10. `PRLL` 프로젝트 `설정` [☑️]
+  - DOCT-11. `PRLL` `스프린트` 작성 [☑️]
+  - DOCT-12. `PRLL` `이슈` 작성 [☑️]
+
+⚙️ DOCT-13. `README.md` 업데이트 [☑️]
+
+⚙️ DOCT-14. `OGLL` 프로젝트 `설정` []
+  - DOCT-15. `OGLL` `스프린트` 작성 []
+  - DOCT-16. `OGLL` `이슈` 작성 []
+
+⚙️ DOCT-17. `README.md` 업데이트 []
+
+⚙️ DOCT-18. `TSTC` 프로젝트 `설정` []
+  - DOCT-19. `TSTC` `스프린트` 작성 []
+  - DOCT-20. `TSTC` `이슈` 작성 []
+
+⚙️ DOCT-21. `README.md` 업데이트 []
+
+⚙️ DOCT-22. `IMPC` 프로젝트 `설정` []
+  - DOCT-23. `IMPC` `스프린트` 작성 []
+  - DOCT-24. `IMPC` `이슈` 작성 []
+
+⚙️ DOCT-25. `README.md` 업데이트 []
 
 <br>
 
