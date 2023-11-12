@@ -201,7 +201,7 @@
 
 <br>
 
-## 🖥️`(IMPC-X)` 테스트 코드 🖥️
+## 🖥️`(IMPC-X)` 구현 코드 🖥️
 
 ```markdown
 🖋️ IMPC 🟰🟰 Implementation-Code 의 의미를 갖는다
