@@ -24,19 +24,19 @@
 
 ## 📑 용어 정리 📑
 
-1. [`DOCT`] : Documentation-Task
+1. [**DOCT**] : Documentation-Task
    - `JIRA 설정` 및 기타 `문서` 작업
 
-2. [`PRLL`] : Pre-Learning-Log
+2. [**PRLL**] : Pre-Learning-Log
    - `사전` 학습 로그
 
-3. [`OGLL`] : Ongoing-Learning-Log
+3. [**OGLL**] : Ongoing-Learning-Log
    - `과정 중` 학습 로그
 
-4. [`TSTC`] : Test-Code
+4. [**TSTC**] : Test-Code
    - `테스트 코드` 관련 작업
 
-5. [`IMPC`] : Implementation-Code
+5. [**IMPC**] : Implementation-Code
    - `구현 코드` 관련 작업
 
 <br>
@@ -49,16 +49,16 @@
 
 
 ```markdown
-⚙️ DOCT 🟰🟰 Documentation-Task 의 의미를 갖는다
+🖋️ DOCT 🟰🟰 Documentation-Task 의 의미를 갖는다
 
-⚙️ DOCT-1 부터 시작한다
+🖋️ DOCT-1 부터 시작한다
 
-⚙️ DOCT 라벨로 JIRA 설정 및 기타 문서 작업을 관리한다
+🖋️ DOCT 라벨로 Jira와 연동한다
 
-⚙️ 하위 이슈는 들여쓰기를 통해 나타낸다
+🖋️ Jira 설정 및 기타 문서 작업을 관리한다
+
+🖋️ 하위 이슈는 들여쓰기를 통해 나타낸다
 ```
-
-
 
 ⚙️ DOCT-1. `JIRA` 용어 이해 [☑️]
 
@@ -84,11 +84,11 @@
 
 ⚙️ DOCT-13. `README.md` 업데이트 [☑️]
 
-⚙️ DOCT-14. `OGLL` 프로젝트 `설정` []
-  - DOCT-15. `OGLL` `스프린트` 작성 []
-  - DOCT-16. `OGLL` `이슈` 작성 []
+⚙️ DOCT-14. `OGLL` 프로젝트 `설정` [☑️]
+  - DOCT-15. `OGLL` `스프린트` 작성 [☑️]
+  - DOCT-16. `OGLL` `이슈` 작성 [☑️]
 
-⚙️ DOCT-17. `README.md` 업데이트 []
+⚙️ DOCT-17. `README.md` 업데이트 [☑️]
 
 ⚙️ DOCT-18. `TSTC` 프로젝트 `설정` []
   - DOCT-19. `TSTC` `스프린트` 작성 []
@@ -111,20 +111,22 @@
 ## 📕`(PRLL-X)` 사전 학습 로그 📕
 
 ```markdown
-📕 PRLL 🟰🟰 Pre-Learning-Log 의 의미를 갖는다
+🖋️ PRLL 🟰🟰 Pre-Learning-Log 의 의미를 갖는다
 
-📕 PRLL-1 부터 시작한다
+🖋️ PRLL-1 부터 시작한다
 
-📕 PRLL 라벨로 사전 학습 로그를 관리한다
+🖋️ PRLL 라벨로 Jira와 연동한다
 
-📕 하위 이슈는 들여쓰기를 통해 나타낸다
+🖋️ 사전 학습 로그를 관리한다
+
+🖋️ 하위 이슈는 들여쓰기를 통해 나타낸다
 ```
 
 📕 PRLL-1. `사전 학습 로그` README.md 작성 [☑️]
 
-📕 PRLL-2. `사전 학습 목록` 파악 []
+📕 PRLL-2. `사전 학습 목록` 파악 [☑️]
 
-📕 PRLL-3. `사전 학습 목록` 스프린트화 []
+📕 PRLL-3. `사전 학습 목록` 스프린트화 [☑️]
 
 📕 PRLL-4. `비즈니스 로직`과 `UI 로직` 학습 []
   - PRLL-5. `비즈니스 로직` 학습 로그 작성 []
