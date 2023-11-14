@@ -191,9 +191,373 @@
 
 **🧪 TSTC-1.** `테스트 코드` README.md 작성 [☑️]
 
-**🧪 TSTC-2.** `테스트 코드 구현 목록` 작성 []
+**🧪 TSTC-2.** `테스트 코드 구현 목록` 작성 [☑️]
 
-**🧪 TGLL-3.** `테스트 코드 구현 목록` 스프린트화 []
+<br>
+
+|파일명|테스트명|테스트 내용|
+|-------------|-----|-----|
+|**TestDateValidator.js**|`testInputDate`|예상 방문날짜 입력 테스트|
+|             |`testIsValidDate`|입력 날짜 검증 테스트|
+|             |`testDateError`|에러 출력, 재입력 테스트|
+|**TestMenuSelection.js**|`testInputMenuOrder`|주문 입력 테스트|
+|             |`testIsValidMenu`|메뉴판 메뉴 검증 테스트|
+|             |`testIsValidNumber`|1 이상 수량 검증 테스트|
+|             |`testIsValidMenuFormat`|메뉴 형식 검증 테스트|
+|             |`testIsDuplicateMenu`|중복 메뉴 검증 테스트|
+|             |`testIsOnlyDrink`|음료만 주문 검증 테스트|
+|             |`testIsOrderLimit`|최대 메뉴 20개 검증 테스트|
+|             |`testMenuOrderError`|에러 출력, 재입력 테스트|
+|**TestBeforeDiscountCalculator.js**|`testTotalBeforeDiscount`|할인 전 총주문 금액 계산 테스트|
+|              |`testIsOverTenThousand`|총주문 금액이 10,000원 이상인지 검증 테스트|
+|**TestDiscountCalculator.js**|`testChristmasDiscount`|크리스마스 디데이 할인 계산 테스트|
+|                 |`testWeekdayDiscount`|평일 할인 계산 테스트|
+|                 |`testWeekendDiscount`|주말 할인 계산 테스트|
+|                 |`testSpecialDiscount`|특별 할인 계산 테스트|
+|                 |`testChampagneDiscount`|증정 이벤트 계산 테스트|
+|**TestBenefitCalculator.js**|`testTotalBenefit`|총 혜택 금액 계산 테스트|
+|**TestAfterDiscountCalculator**|`testTotalAfterDiscount`|할인 후 예상 결제 금액 계산 테스트|
+|**TestBadgeAssigner**|`testAssignBadge`|총혜택 금액에 따라 배지 부여 테스트|
+|**TestResultPrinter**|`testPrintHeader`|날짜를 받아와서 문구 출력 테스트|
+|                 |`testPrintOrderDetails`|주문 메뉴 출력 테스트|
+|                 |`testPrintTotalBeforeDiscount`|할인 전 총주문 금액 출력 테스트|
+|                 |`testPrintChampagne`|증정메뉴 출력 테스트|
+|                 |`testPrintBenefitDetails`|혜택 내역 출력 테스트|
+|                 |`testPrintTotalBenefits`|총 혜택 금액 출력 테스트|
+|                 |`testPrintTotalAfterDiscount`|할인 후 예상 결제 금액 출력 테스트|
+|                 |`testPrintBadge`|12월 이벤트 배지 출력 테스트|
+
+<br>
+
+**🧪 TSTC-3.** `테스트 코드 구현 목록` 스프린트화 [☑️]
+
+<br>
+
+
+---
+
+<br>
+
+**🧪 TSTC-4.** **`파일명 : TestDateValidator.js`** [] 
+
+<br>
+
+- **🥼 TSTC-12.** `테스트명 : testInputDate`[]
+
+  테스트 내용
+
+  🔎 **TSTC-41.** 사용자에게 메시지 표시 및 날짜 입력 기능 테스트 []
+  
+  🔎 **TSTC-42.** 날짜 입력 값에 공백 제거 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-13.** `테스트명 : testIsValidDate` []
+
+  테스트 내용
+
+  🔎 **TSTC-43.** 입력된 날짜가 1~31 사이인지 기능 테스트 []
+  
+  🔎 **TSTC-44.** 날짜가 빈 값일 경우(공백만 입력) 에러로 간주 기능 테스트 []
+
+  🔎 **TSTC-45.** 날짜에 문자가 포함되어 있는 경우 에러로 간주 기능 테스트 []
+
+  🔎 **TSTC-46.** 날짜에 특수 문자가 포함되어 있는 경우 에러로 간주 기능 테스트 []
+
+  🔎 **TSTC-47.** 날짜 입력 에러 메세지 반환 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-14.** `테스트명 : testDateError` []
+
+    테스트 내용
+
+  🔎 **TSTC-48.** 날짜 입력 에러 메세지 출력 기능 테스트 []
+
+  🔎 **TSTC-49.** 날짜 재입력 기능 테스트 []
+  
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-5.** **`파일명 : TestMenuSelection.js`** []
+
+<br>
+
+- **🥼 TSTC-15.** `테스트명 : testInputMenuOrder` []
+
+  테스트 내용
+
+  🔎 **TSTC-50.** 사용자에게 메시지 표시 및 메뉴 입력 기능 테스트 []
+
+  🔎 **TSTC-51.** 메뉴 입력 값에 공백 제거 기능 테스트 []
+
+
+<br>
+
+- **🥼 TSTC-16.** `테스트명 : testIsValidMenu` []
+
+  테스트 내용
+
+  🔎 **TSTC-52.** 메뉴판에 메뉴명의 존재 여부 검증 기능 테스트 []
+
+  🔎 **TSTC-53.** 없는 메뉴인 경우 에러 메세지 반환 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-17.** `테스트명 : testIsValidNumber` []
+
+  테스트 내용
+
+  🔎 **TSTC-54.** 메뉴 수량이 1 이상인지 검증 기능 테스트 []
+
+  🔎 **TSTC-55.** 메뉴 수량이 1개 미만인 경우 에러 메세지 반환 기능 테스트 []
+  
+<br>
+
+- **🥼 TSTC-18.** `테스트명 : testIsValidMenuFormat` []
+
+  테스트 내용
+
+  🔎 **TSTC-56.** 메뉴 형식이 예시와 같은지 검증 기능 테스트 []
+
+  🔎 **TSTC-57.** 메뉴 형식이 다른 경우 에러 메세지 반환 기능 테스트 []
+ 
+<br>
+
+- **🥼 TSTC-19.** `테스트명 : testIsDuplicateMenu` []
+
+  테스트 내용
+
+  🔎 **TSTC-58.** 중복 메뉴를 입력 했는지 검증 기능 테스트 []
+
+  🔎 **TSTC-59.** 중복 메뉴 입력 시 에러 메세지 반환 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-20.** `테스트명 : testIsOnlyDrink` []
+
+  테스트 내용
+
+  🔎 **TSTC-60.** 음료만 주문 했는지 검증 기능 테스트 []
+
+  🔎 **TSTC-61.** 음료만 주문 시 에러 메세지 반환 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-21.** `테스트명 : testIsOrderLimit` []
+
+  테스트 내용
+
+  🔎 **TSTC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 기능 테스트 []
+
+  🔎 **TSTC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-22.** `테스트명 : testMenuOrderError` []
+
+  테스트 내용
+
+  🔎 **TSTC-64.** 메뉴 관련 에러 메시지 출력 기능 테스트 []
+  
+  🔎 **TSTC-65.** 메뉴 재입력 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-6.** **`파일명 : TestBeforeDiscountCalculator.js`** []
+
+<br>
+
+- **🥼 TSTC-23.** `테스트명 : testTotalBeforeDiscount` []
+
+  테스트 내용
+  
+  🔎 **TSTC-66.** 각 메뉴의 가격과 수량 곱해서 합산하는 기능 테스트 []
+  
+<br>
+
+- **🥼 TSTC-24.** `테스트명 : testIsOverTenThousand` []
+
+  테스트 내용
+
+  🔎 **TSTC-67.** 총주문 금액이 10,000원 이상인지 검증 기능 테스트 []
+ 
+  🔎 **TSTC-68.** 10000원 이상일 경우 true 반환 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-7.** **`파일명 : TestDiscountCalculator.js`** []
+
+<br>
+
+- **🥼 TSTC-25.** `테스트명 : testChristmasDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-69.** 크리스마스 할인 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-26.** `테스트명 : testWeekdayDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-70.** 평일 할인 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-27.** `테스트명 : testWeekendDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-71.** 주말 할인 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-28.** `테스트명 : testSpecialDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-72.** 특별 할인 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-29.** `테스트명 : testChampagneDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-73.** 증정 이벤트 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-8.** **`파일명 : TestBenefitCalculator.js`** []
+
+<br>
+
+- **🥼 TSTC-30.** `테스트명 : testTotalBenefit` []
+
+  테스트 내용
+
+  🔎 **TSTC-74.** 총 혜택 금액 계산 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-9.** **`파일명 : TestAfterDiscountCalculator.js`** []
+
+<br>
+
+- **🥼 TSTC-31.** `테스트명 : testTotalAfterDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-75.** 할인 후 예상 결제 금액 계산 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-10.** **`파일명 : TestBadgeAssigner.js`** []
+
+<br>
+
+- **🥼 TSTC-32.** `테스트명 : testAssignBadge` []
+
+  테스트 내용
+
+  🔎 **TSTC-76.**  총혜택 금액에 따라 배지 부여 기능 테스트 []
+
+<br>
+
+---
+
+<br>
+
+**🧪 TSTC-11.** **`파일명 : TestResultPrinter.js`** []
+
+<br>
+
+- **🥼 TSTC-33.** `테스트명 : testPrintHeader` []
+
+  테스트 내용
+
+  🔎 **TSTC-77.** 날짜를 받아와서 미리 보기 문구 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-34.** `테스트명 : testPrintOrderDetails` []
+
+  테스트 내용
+
+  🔎 **TSTC-78.** 주문 메뉴 목록 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-35.** `테스트명 : testPrintTotalBeforeDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-79.** 할인 전 총주문 금액 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-36.** `테스트명 : testPrintChampagne` []
+
+  테스트 내용
+
+  🔎 **TSTC-80.** 증정메뉴 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-37.** `테스트명 : testPrintBenefitDetails` []
+
+  테스트 내용
+
+  🔎 **TSTC-81.** 혜택 내역 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-38.** `테스트명 : testPrintTotalBenefits` []
+
+  테스트 내용
+
+  🔎 **TSTC-82.** 총 혜택 금액 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-39.** `테스트명 : testPrintTotalAfterDiscount` []
+
+  테스트 내용
+
+  🔎 **TSTC-83.** 할인 후 예상 결제 금액 출력 기능 테스트 []
+
+<br>
+
+- **🥼 TSTC-40.** `테스트명 : testPrintBadge` []
+
+  테스트 내용
+
+  🔎 **TSTC-83.** 12월 이벤트 배지 출력 기능 테스트 []
 
 <br>
 
@@ -256,6 +620,12 @@
 <br>
 
 **🖥️ IMPC-3.** `기능 구현 목록` 스프린트화 [☑️]
+
+<br>
+
+---
+
+<br>
 
 **🖥️ IMPC-4.** **`클래스 : DateValidator`** [] 
 
