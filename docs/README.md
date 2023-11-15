@@ -238,7 +238,7 @@
 
 <br>
 
-**🧪 TSTC-4.** **`파일명 : TestDateValidator.js`** [] 
+**🧪 TSTC-4.** **`파일명 : TestDateValidator.js`** [☑️] 
 
 <br>
 
@@ -282,87 +282,87 @@
 
 <br>
 
-**🧪 TSTC-5.** **`파일명 : TestMenuSelection.js`** []
+**🧪 TSTC-5.** **`파일명 : TestMenuSelection.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-15.** `테스트명 : testInputMenuOrder` []
+- **🥼 TSTC-15.** `테스트명 : testInputMenuOrder` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-50.** 사용자에게 메시지 표시 및 메뉴 입력 기능 테스트 []
+  🔎 **TSTC-50.** 사용자에게 메시지 표시 및 메뉴 입력 기능 테스트 [☑️]
 
-  🔎 **TSTC-51.** 메뉴 입력 값에 공백 제거 기능 테스트 []
+  🔎 **TSTC-51.** 메뉴 입력 값에 공백 제거 기능 테스트 [☑️]
 
-  🔎 **TSTC-65.** 메뉴 재입력 기능 테스트 []
+  🔎 **TSTC-65.** 메뉴 재입력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-16.** `테스트명 : testIsValidMenu` []
+- **🥼 TSTC-16.** `테스트명 : testIsValidMenu` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-52.** 메뉴판에 메뉴명의 존재 여부 검증 기능 테스트 []
+  🔎 **TSTC-52.** 메뉴판에 메뉴명의 존재 여부 검증 기능 테스트 [☑️]
 
-  🔎 **TSTC-53.** 없는 메뉴인 경우 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-53.** 없는 메뉴인 경우 에러 메세지 반환 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-17.** `테스트명 : testIsValidNumber` []
+- **🥼 TSTC-17.** `테스트명 : testIsValidNumber` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-54.** 메뉴 수량이 1 이상인지 검증 기능 테스트 []
+  🔎 **TSTC-54.** 메뉴 수량이 1 이상인지 검증 기능 테스트 [☑️]
 
-  🔎 **TSTC-55.** 메뉴 수량이 1개 미만인 경우 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-55.** 메뉴 수량이 1개 미만인 경우 에러 메세지 반환 기능 테스트 [☑️]
   
 <br>
 
-- **🥼 TSTC-18.** `테스트명 : testIsValidMenuFormat` []
+- **🥼 TSTC-18.** `테스트명 : testIsValidMenuFormat` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-56.** 메뉴 형식이 예시와 같은지 검증 기능 테스트 []
+  🔎 **TSTC-56.** 메뉴 형식이 예시와 같은지 검증 기능 테스트 [☑️]
 
-  🔎 **TSTC-57.** 메뉴 형식이 다른 경우 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-57.** 메뉴 형식이 다른 경우 에러 메세지 반환 기능 테스트 [☑️]
  
 <br>
 
-- **🥼 TSTC-19.** `테스트명 : testIsDuplicateMenu` []
+- **🥼 TSTC-19.** `테스트명 : testIsDuplicateMenu` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-58.** 중복 메뉴를 입력 했는지 검증 기능 테스트 []
+  🔎 **TSTC-58.** 중복 메뉴를 입력 했는지 검증 기능 테스트 [☑️]
 
-  🔎 **TSTC-59.** 중복 메뉴 입력 시 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-59.** 중복 메뉴 입력 시 에러 메세지 반환 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-20.** `테스트명 : testIsOnlyDrink` []
+- **🥼 TSTC-20.** `테스트명 : testIsOnlyDrink` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-60.** 음료만 주문 했는지 검증 기능 테스트 []
+  🔎 **TSTC-60.** 음료만 주문 했는지 검증 기능 테스트 [☑️]
 
-  🔎 **TSTC-61.** 음료만 주문 시 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-61.** 음료만 주문 시 에러 메세지 반환 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-21.** `테스트명 : testIsOrderLimit` []
+- **🥼 TSTC-21.** `테스트명 : testIsOrderLimit` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 기능 테스트 []
+  🔎 **TSTC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 기능 테스트 [☑️]
 
-  🔎 **TSTC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 기능 테스트 []
+  🔎 **TSTC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-22.** `테스트명 : testMenuOrderError` []
+- **🥼 TSTC-22.** `테스트명 : testMenuOrderError` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-64.** 메뉴 관련 에러 메시지 출력 기능 테스트 []
+  🔎 **TSTC-64.** 메뉴 관련 에러 메시지 출력 기능 테스트 [☑️]
   
 <br>
 
@@ -370,25 +370,25 @@
 
 <br>
 
-**🧪 TSTC-6.** **`파일명 : TestBeforeDiscountCalculator.js`** []
+**🧪 TSTC-6.** **`파일명 : TestBeforeDiscountCalculator.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-23.** `테스트명 : testTotalBeforeDiscount` []
+- **🥼 TSTC-23.** `테스트명 : testTotalBeforeDiscount` [☑️]
 
   테스트 내용
   
-  🔎 **TSTC-66.** 각 메뉴의 가격과 수량 곱해서 합산하는 기능 테스트 []
+  🔎 **TSTC-66.** 각 메뉴의 가격과 수량 곱해서 합산하는 기능 테스트 [☑️]
   
 <br>
 
-- **🥼 TSTC-24.** `테스트명 : testIsOverTenThousand` []
+- **🥼 TSTC-24.** `테스트명 : testIsOverTenThousand` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-67.** 총주문 금액이 10,000원 이상인지 검증 기능 테스트 []
+  🔎 **TSTC-67.** 총주문 금액이 10,000원 이상인지 검증 기능 테스트 [☑️]
  
-  🔎 **TSTC-68.** 10000원 이상일 경우 true 반환 기능 테스트 []
+  🔎 **TSTC-68.** 10000원 이상일 경우 true 반환 기능 테스트 [☑️]
 
 <br>
 
@@ -396,47 +396,47 @@
 
 <br>
 
-**🧪 TSTC-7.** **`파일명 : TestDiscountCalculator.js`** []
+**🧪 TSTC-7.** **`파일명 : TestDiscountCalculator.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-25.** `테스트명 : testChristmasDiscount` []
+- **🥼 TSTC-25.** `테스트명 : testChristmasDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-69.** 크리스마스 할인 기능 테스트 []
+  🔎 **TSTC-69.** 크리스마스 할인 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-26.** `테스트명 : testWeekdayDiscount` []
+- **🥼 TSTC-26.** `테스트명 : testWeekdayDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-70.** 평일 할인 기능 테스트 []
+  🔎 **TSTC-70.** 평일 할인 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-27.** `테스트명 : testWeekendDiscount` []
+- **🥼 TSTC-27.** `테스트명 : testWeekendDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-71.** 주말 할인 기능 테스트 []
+  🔎 **TSTC-71.** 주말 할인 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-28.** `테스트명 : testSpecialDiscount` []
+- **🥼 TSTC-28.** `테스트명 : testSpecialDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-72.** 특별 할인 기능 테스트 []
+  🔎 **TSTC-72.** 특별 할인 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-29.** `테스트명 : testChampagneDiscount` []
+- **🥼 TSTC-29.** `테스트명 : testChampagneDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-73.** 증정 이벤트 기능 테스트 []
+  🔎 **TSTC-73.** 증정 이벤트 기능 테스트 [☑️]
 
 <br>
 
@@ -444,15 +444,15 @@
 
 <br>
 
-**🧪 TSTC-8.** **`파일명 : TestBenefitCalculator.js`** []
+**🧪 TSTC-8.** **`파일명 : TestBenefitCalculator.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-30.** `테스트명 : testTotalBenefit` []
+- **🥼 TSTC-30.** `테스트명 : testTotalBenefit` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-74.** 총 혜택 금액 계산 기능 테스트 []
+  🔎 **TSTC-74.** 총 혜택 금액 계산 기능 테스트 [☑️]
 
 <br>
 
@@ -460,15 +460,15 @@
 
 <br>
 
-**🧪 TSTC-9.** **`파일명 : TestAfterDiscountCalculator.js`** []
+**🧪 TSTC-9.** **`파일명 : TestAfterDiscountCalculator.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-31.** `테스트명 : testTotalAfterDiscount` []
+- **🥼 TSTC-31.** `테스트명 : testTotalAfterDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-75.** 할인 후 예상 결제 금액 계산 기능 테스트 []
+  🔎 **TSTC-75.** 할인 후 예상 결제 금액 계산 기능 테스트 [☑️]
 
 <br>
 
@@ -476,15 +476,15 @@
 
 <br>
 
-**🧪 TSTC-10.** **`파일명 : TestBadgeAssigner.js`** []
+**🧪 TSTC-10.** **`파일명 : TestBadgeAssigner.js`** [☑️]
 
 <br>
 
-- **🥼 TSTC-32.** `테스트명 : testAssignBadge` []
+- **🥼 TSTC-32.** `테스트명 : testAssignBadge` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-76.**  총혜택 금액에 따라 배지 부여 기능 테스트 []
+  🔎 **TSTC-76.**  총혜택 금액에 따라 배지 부여 기능 테스트 [☑️]
 
 <br>
 
@@ -492,71 +492,71 @@
 
 <br>
 
-**🧪 TSTC-11.** **`파일명 : TestResultPrinter.js`** []
+**🧪 TSTC-11.** **`파일명 : TestResultPrinter.js`** ☑️
 
 <br>
 
-- **🥼 TSTC-33.** `테스트명 : testPrintHeader` []
+- **🥼 TSTC-33.** `테스트명 : testPrintHeader` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-77.** 날짜를 받아와서 미리 보기 문구 출력 기능 테스트 []
+  🔎 **TSTC-77.** 날짜를 받아와서 미리 보기 문구 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-34.** `테스트명 : testPrintOrderDetails` []
+- **🥼 TSTC-34.** `테스트명 : testPrintOrderDetails` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-78.** 주문 메뉴 목록 출력 기능 테스트 []
+  🔎 **TSTC-78.** 주문 메뉴 목록 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-35.** `테스트명 : testPrintTotalBeforeDiscount` []
+- **🥼 TSTC-35.** `테스트명 : testPrintTotalBeforeDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-79.** 할인 전 총주문 금액 출력 기능 테스트 []
+  🔎 **TSTC-79.** 할인 전 총주문 금액 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-36.** `테스트명 : testPrintChampagne` []
+- **🥼 TSTC-36.** `테스트명 : testPrintChampagne` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-80.** 증정메뉴 출력 기능 테스트 []
+  🔎 **TSTC-80.** 증정메뉴 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-37.** `테스트명 : testPrintBenefitDetails` []
+- **🥼 TSTC-37.** `테스트명 : testPrintBenefitDetails` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-81.** 혜택 내역 출력 기능 테스트 []
+  🔎 **TSTC-81.** 혜택 내역 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-38.** `테스트명 : testPrintTotalBenefits` []
+- **🥼 TSTC-38.** `테스트명 : testPrintTotalBenefits` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-82.** 총 혜택 금액 출력 기능 테스트 []
+  🔎 **TSTC-82.** 총 혜택 금액 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-39.** `테스트명 : testPrintTotalAfterDiscount` []
+- **🥼 TSTC-39.** `테스트명 : testPrintTotalAfterDiscount` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-83.** 할인 후 예상 결제 금액 출력 기능 테스트 []
+  🔎 **TSTC-83.** 할인 후 예상 결제 금액 출력 기능 테스트 [☑️]
 
 <br>
 
-- **🥼 TSTC-40.** `테스트명 : testPrintBadge` []
+- **🥼 TSTC-40.** `테스트명 : testPrintBadge` [☑️]
 
   테스트 내용
 
-  🔎 **TSTC-84.** 12월 이벤트 배지 출력 기능 테스트 []
+  🔎 **TSTC-84.** 12월 이벤트 배지 출력 기능 테스트 [☑️]
 
 <br>
 
@@ -626,7 +626,7 @@
 
 <br>
 
-**🖥️ IMPC-4.** **`클래스 : DateValidator`** [] 
+**🖥️ IMPC-4.** **`클래스 : DateValidator`** [☑️] 
 
 <br>
 
@@ -673,98 +673,98 @@
 
 <br>
 
-**🖥️ IMPC-5.** **`클래스 : MenuSelection`** []
+**🖥️ IMPC-5.** **`클래스 : MenuSelection`** [☑️]
 
 <br>
 
-- **🔨 IMPC-15.** `메서드 : inputMenuOrder` []
+- **🔨 IMPC-15.** `메서드 : inputMenuOrder` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-50.** 사용자에게 메시지를 표시하고 메뉴를 입력받음 []
+  🪛 **IMPC-50.** 사용자에게 메시지를 표시하고 메뉴를 입력받음 [☑️]
   - 주문하실 메뉴와 개수를 알려 주세요. (e.g. 해산물파스타-2,레드와인-1,초코케이크-1)
 
-  🪛 **IMPC-51.** 메뉴 입력 값에 공백이 들어갈 경우 제거 []
+  🪛 **IMPC-51.** 메뉴 입력 값에 공백이 들어갈 경우 제거 [☑️]
 
-  🪛 **IMPC-65.** 메뉴 재입력 []
+  🪛 **IMPC-65.** 메뉴 재입력 [☑️]
 
 <br>
 
 
-- **🔨 IMPC-16.** `메서드 : isValidMenu` []
+- **🔨 IMPC-16.** `메서드 : isValidMenu` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-52.** 메뉴판에 메뉴명의 존재 여부 검증 []
+  🪛 **IMPC-52.** 메뉴판에 메뉴명의 존재 여부 검증 [☑️]
 
-  🪛 **IMPC-53.** 없는 메뉴인 경우 에러 메세지 반환 []
+  🪛 **IMPC-53.** 없는 메뉴인 경우 에러 메세지 반환 [☑️]
   - [ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요.
 
 <br>
 
-- **🔨 IMPC-17.** `메서드 : isValidNumber` []
+- **🔨 IMPC-17.** `메서드 : isValidNumber` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-54.** 메뉴 수량이 1 이상인지 검증 []
+  🪛 **IMPC-54.** 메뉴 수량이 1 이상인지 검증 [☑️]
 
-  🪛 **IMPC-55.** 메뉴 수량이 1개 미만인 경우 에러 메세지 반환 []
+  🪛 **IMPC-55.** 메뉴 수량이 1개 미만인 경우 에러 메세지 반환 [☑️]
   - [ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요.
 
 <br>
 
-- **🔨 IMPC-18.** `메서드 : isValidMenuFormat` []
+- **🔨 IMPC-18.** `메서드 : isValidMenuFormat` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-56.** 메뉴 형식이 예시와 같은지 검증 []
+  🪛 **IMPC-56.** 메뉴 형식이 예시와 같은지 검증 [☑️]
 
-  🪛 **IMPC-57.** 메뉴 형식이 다른 경우 에러 메세지 반환 []
+  🪛 **IMPC-57.** 메뉴 형식이 다른 경우 에러 메세지 반환 [☑️]
   - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
-- **🔨 IMPC-19.** `메서드 : isDuplicateMenu` []
+- **🔨 IMPC-19.** `메서드 : isDuplicateMenu` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-58.** 중복 메뉴를 입력 했는지 검증 []
+  🪛 **IMPC-58.** 중복 메뉴를 입력 했는지 검증 [☑️]
   - (e.g. 시저샐러드-1,시저샐러드-1)
 
-  🪛 **IMPC-59.** 중복 메뉴 입력 시 에러 메세지 반환 []
+  🪛 **IMPC-59.** 중복 메뉴 입력 시 에러 메세지 반환 [☑️]
   - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
-- **🔨 IMPC-20.** `메서드 : isOnlyDrink` []
+- **🔨 IMPC-20.** `메서드 : isOnlyDrink` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-60.** 음료만 주문 했는지 검증 []
+  🪛 **IMPC-60.** 음료만 주문 했는지 검증 [☑️]
   - <음료>
     - 제로콜라(3,000), 레드와인(60,000), 샴페인(25,000)
   
-  🪛 **IMPC-61.** 음료만 주문 시 에러 메세지 반환 []
+  🪛 **IMPC-61.** 음료만 주문 시 에러 메세지 반환 [☑️]
   - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
-- **🔨 IMPC-21.** `메서드 : isOrderLimit` []
+- **🔨 IMPC-21.** `메서드 : isOrderLimit` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 []
+  🪛 **IMPC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 [☑️]
 
-  🪛 **IMPC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 []
+  🪛 **IMPC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 [☑️]
   - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
-- **🔨 IMPC-22.** `메서드 : menuOrderError` []
+- **🔨 IMPC-22.** `메서드 : menuOrderError` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-64.** 메뉴 관련 에러 메시지 출력 []  
+  🪛 **IMPC-64.** 메뉴 관련 에러 메시지 출력 [☑️]  
 
 <br>
 
@@ -772,26 +772,26 @@
 
 <br>
 
-**🖥️ IMPC-6.** **`클래스 : BeforeDiscountCalculator`** []
+**🖥️ IMPC-6.** **`클래스 : BeforeDiscountCalculator`** [☑️]
 
 <br>
 
-- **🔨 IMPC-23.** `메서드 : totalBeforeDiscount` []
+- **🔨 IMPC-23.** `메서드 : totalBeforeDiscount` [☑️]
 
   담당 기능
   
-  🪛 **IMPC-66.** 주문한 각 메뉴의 가격과 수량을 곱해서 합산 []
+  🪛 **IMPC-66.** 주문한 각 메뉴의 가격과 수량을 곱해서 합산 [☑️]
     - 총 주문 금액 반환
 
 <br>
 
-- **🔨 IMPC-24.** `메서드 : isOverTenThousand` []
+- **🔨 IMPC-24.** `메서드 : isOverTenThousand` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-67.** 총주문 금액이 10,000원 이상인지 검증 []
+  🪛 **IMPC-67.** 총주문 금액이 10,000원 이상인지 검증 [☑️]
  
-  🪛 **IMPC-68.** 10000원 이상일 경우 true 반환 []
+  🪛 **IMPC-68.** 10000원 이상일 경우 true 반환 [☑️]
 
 <br>
 
@@ -799,15 +799,15 @@
 
 <br>
 
-**🖥️ IMPC-7.** **`클래스 : DiscountCalculator`** []
+**🖥️ IMPC-7.** **`클래스 : DiscountCalculator`** [☑️]
 
 <br>
 
-- **🔨 IMPC-25.** `메서드 : christmasDiscount` []
+- **🔨 IMPC-25.** `메서드 : christmasDiscount` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-69.** 크리스마스 할인 []
+  🪛 **IMPC-69.** 크리스마스 할인 [☑️]
   - 이벤트 기간 2023.12.1 ~ 2023.12.25
   - 12.26 ~ 12.31은 적용하지 않도록 주의
   - 1000 원으로 시작하여 크리스마스가 다가올수록 날마다 할인 금액 100원씩 증가
@@ -817,11 +817,11 @@
 
 <br>
 
-- **🔨 IMPC-26.** `메서드 : weekdayDiscount` []
+- **🔨 IMPC-26.** `메서드 : weekdayDiscount` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-70.** 평일 할인 []
+  🪛 **IMPC-70.** 평일 할인 [☑️]
   - 이벤트 기간 2023.12.1 ~ 2023.12.31
   - 일요일,월요일,화요일,수요일,목요일
   - 평일에 디저트 메뉴 1개당 2,023원 할인
@@ -831,11 +831,11 @@
 
 <br>
 
-- **🔨 IMPC-27.** `메서드 : weekendDiscount` []
+- **🔨 IMPC-27.** `메서드 : weekendDiscount` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-71.** 주말 할인 []
+  🪛 **IMPC-71.** 주말 할인 [☑️]
   - 이벤트 기간 2023.12.1 ~ 2023.12.31
   - 금요일, 토요일
   - 주말에 메인 메뉴 주문 시 2,023원 할인
@@ -845,11 +845,11 @@
 
 <br>
 
-- **🔨 IMPC-28.** `메서드 : specialDiscount` []
+- **🔨 IMPC-28.** `메서드 : specialDiscount` [☑️]
 
   담당 기능
 
-  🪛 **IMPC-72.** 특별 할인 []
+  🪛 **IMPC-72.** 특별 할인 [☑️]
   - 이벤트 기간 2023.12.1 ~ 2023.12.31
   - 달력에 별이 표시되어 있으면 총 주문금액에서 1,000원 추가 할인.
   - 별 있는 날짜
