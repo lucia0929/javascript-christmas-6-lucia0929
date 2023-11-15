@@ -197,17 +197,17 @@
 
 |파일명|테스트명|테스트 내용|
 |-------------|-----|-----|
-|**TestDateValidator.js**|`testInputDate`|예상 방문날짜 입력 테스트|
+|**TestDateValidator.js**|`testInputDate`|예상 방문날짜 입력, 재입력 테스트|
 |             |`testIsValidDate`|입력 날짜 검증 테스트|
-|             |`testDateError`|에러 출력, 재입력 테스트|
-|**TestMenuSelection.js**|`testInputMenuOrder`|주문 입력 테스트|
+|             |`testDateError`|에러 출력 테스트|
+|**TestMenuSelection.js**|`testInputMenuOrder`|주문 입력, 재입력 테스트|
 |             |`testIsValidMenu`|메뉴판 메뉴 검증 테스트|
 |             |`testIsValidNumber`|1 이상 수량 검증 테스트|
 |             |`testIsValidMenuFormat`|메뉴 형식 검증 테스트|
 |             |`testIsDuplicateMenu`|중복 메뉴 검증 테스트|
 |             |`testIsOnlyDrink`|음료만 주문 검증 테스트|
 |             |`testIsOrderLimit`|최대 메뉴 20개 검증 테스트|
-|             |`testMenuOrderError`|에러 출력, 재입력 테스트|
+|             |`testMenuOrderError`|에러 출력 테스트|
 |**TestBeforeDiscountCalculator.js**|`testTotalBeforeDiscount`|할인 전 총주문 금액 계산 테스트|
 |              |`testIsOverTenThousand`|총주문 금액이 10,000원 이상인지 검증 테스트|
 |**TestDiscountCalculator.js**|`testChristmasDiscount`|크리스마스 디데이 할인 계산 테스트|
@@ -250,6 +250,8 @@
   
   🔎 **TSTC-42.** 날짜 입력 값에 공백 제거 기능 테스트 []
 
+  🔎 **TSTC-49.** 날짜 재입력 기능 테스트 []
+  
 <br>
 
 - **🥼 TSTC-13.** `테스트명 : testIsValidDate` []
@@ -273,8 +275,6 @@
     테스트 내용
 
   🔎 **TSTC-48.** 날짜 입력 에러 메세지 출력 기능 테스트 []
-
-  🔎 **TSTC-49.** 날짜 재입력 기능 테스트 []
   
 <br>
 
@@ -294,6 +294,7 @@
 
   🔎 **TSTC-51.** 메뉴 입력 값에 공백 제거 기능 테스트 []
 
+  🔎 **TSTC-65.** 메뉴 재입력 기능 테스트 []
 
 <br>
 
@@ -363,8 +364,6 @@
 
   🔎 **TSTC-64.** 메뉴 관련 에러 메시지 출력 기능 테스트 []
   
-  🔎 **TSTC-65.** 메뉴 재입력 기능 테스트 []
-
 <br>
 
 ---
@@ -557,7 +556,7 @@
 
   테스트 내용
 
-  🔎 **TSTC-83.** 12월 이벤트 배지 출력 기능 테스트 []
+  🔎 **TSTC-84.** 12월 이벤트 배지 출력 기능 테스트 []
 
 <br>
 
@@ -587,17 +586,17 @@
 
 |클래스|메서드|설명|
 |-------------|-----|-----|
-|**DateValidator**|`inputDate`|예상 방문날짜 입력받음|
+|**DateValidator**|`inputDate`|예상 방문날짜 입력받음, 재입력|
 |             |`isValidDate`|입력 날짜 검증|
-|             |`dateError`|에러 출력, 재입력|
-|**MenuSelection**|`inputMenuOrder`|주문 입력받음|
+|             |`dateError`|에러 출력|
+|**MenuSelection**|`inputMenuOrder`|주문 입력, 재입력 받음|
 |             |`isValidMenu`|메뉴판 메뉴 검증|
 |             |`isValidNumber`|1 이상 수량 검증|
 |             |`isValidMenuFormat`|메뉴 형식 검증|
 |             |`isDuplicateMenu`|중복 메뉴 검증|
 |             |`isOnlyDrink`|음료만 주문 검증|
 |             |`isOrderLimit`|최대 메뉴 20개 검증|
-|             |`menuOrderError`|에러 출력, 재입력|
+|             |`menuOrderError`|에러 출력|
 |**BeforeDiscountCalculator**|`totalBeforeDiscount`|할인 전 총주문 금액 계산|
 |              |`isOverTenThousand`|총주문 금액이 10,000원 이상인지 검증|
 |**DiscountCalculator**|`christmasDiscount`|크리스마스 디데이 할인 계산|
@@ -641,6 +640,8 @@
   
   🪛 **IMPC-42.** 날짜 입력 값에 공백이 들어갈 경우 제거 []
 
+  🪛 **IMPC-49.** 날짜 재입력 []
+
 <br>
 
 - **🔨 IMPC-13.** `메서드 : isValidDate` []
@@ -664,9 +665,7 @@
     담당 기능
 
   🪛 **IMPC-48.** 날짜 입력 에러 메세지 출력 []
-  - "[ERROR] 유효하지 않은 날짜입니다. 다시 입력해 주세요."
-  
-  🪛 **IMPC-49.** 날짜 재입력 []
+  - "[ERROR] 유효하지 않은 날짜입니다. 다시 입력해 주세요." 
   
 <br>
 
@@ -687,6 +686,7 @@
 
   🪛 **IMPC-51.** 메뉴 입력 값에 공백이 들어갈 경우 제거 []
 
+  🪛 **IMPC-65.** 메뉴 재입력 []
 
 <br>
 
@@ -745,7 +745,7 @@
     - 제로콜라(3,000), 레드와인(60,000), 샴페인(25,000)
   
   🪛 **IMPC-61.** 음료만 주문 시 에러 메세지 반환 []
-  - "[ERROR] 음료만 주문 시, 주문할 수 없습니다. 다시 입력해 주세요."
+  - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
@@ -756,7 +756,7 @@
   🪛 **IMPC-62.** 주문한 메뉴 수가 20개를 초과하는지 확인 []
 
   🪛 **IMPC-63.** 메뉴 수가 20개를 초과하면 에러 메세지 반환 []
-  - "[ERROR] 최대 주문 가능한 메뉴 수를 초과했습니다. 다시 입력해 주세요."
+  - "[ERROR] 유효하지 않은 주문입니다. 다시 입력해 주세요."
 
 <br>
 
@@ -764,9 +764,7 @@
 
   담당 기능
 
-  🪛 **IMPC-64.** 메뉴 관련 에러 메시지 출력 []
-  
-  🪛 **IMPC-65.** 메뉴 재입력 []
+  🪛 **IMPC-64.** 메뉴 관련 에러 메시지 출력 []  
 
 <br>
 
@@ -1022,7 +1020,7 @@
 
   담당 기능
 
-  🪛 **IMPC-83.** 12월 이벤트 배지 출력 []
+  🪛 **IMPC-84.** 12월 이벤트 배지 출력 []
   - 없을 경우 "없음"
 
 <br>
