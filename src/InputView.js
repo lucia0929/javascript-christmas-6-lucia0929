@@ -13,8 +13,8 @@ export const InputView = {
     },
 
     async promptDate() {
-        Console.print(DATE_PROMPT);
-        const input = await Console.readLineAsync(DATE_INPUT_PROMPT);
-        return input
+        Console.print(DATE_PROMPT); // IMPC-41
+        const input = await Console.readLineAsync(DATE_INPUT_PROMPT); // IMPC-41
+        return input.replace(DATE_INPUT_TRIM, EMPTY); // IMPC-42
     }    
 }
