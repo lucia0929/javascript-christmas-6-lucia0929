@@ -24,3 +24,10 @@ describe('InputView', () => {
     expect(date).toBe("26");
   });
 });
+
+describe('DateValidator', () => {
+  test('TSTC-43: 입력된 날짜가 1부터 31 사이여야 한다', () => {
+    expect(DateValidator.isValidDate("32")).toBe(false);
+    expect(DateValidator.isValidDate("15")).toBe(true);
+  });
+});
