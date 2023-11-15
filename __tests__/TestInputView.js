@@ -17,4 +17,10 @@ describe('InputView', () => {
     expect(Console.print).toHaveBeenCalledWith(DATE_PROMPT);
     expect(Console.readLineAsync).toHaveBeenCalledWith(DATE_INPUT_PROMPT);
   });
+
+  test('TSTC-42: 날짜 입력값에서 공백을 제거해야 한다', async () => {
+    Console.readLineAsync.mockResolvedValue(" 26 ");
+    const date = await InputView.inputDate();
+    expect(date).toBe("26");
+  });
 });
