@@ -30,4 +30,21 @@ describe('DateValidator', () => {
     expect(DateValidator.isValidDate("32")).toBe(false);
     expect(DateValidator.isValidDate("15")).toBe(true);
   });
+
+  test('TSTC-44: 날짜가 빈 값인 경우 에러로 처리해야 한다', () => {
+    expect(DateValidator.isValidDate("")).toBe(false);
+  });
+
+  test('TSTC-45: 날짜에 문자가 포함된 경우 에러로 처리해야 한다', () => {
+    expect(DateValidator.isValidDate("10a")).toBe(false);
+  });
+
+  test('TSTC-46: 날짜에 특수 문자가 포함된 경우 에러로 처리해야 한다', () => {
+    expect(DateValidator.isValidDate("10#")).toBe(false);
+  });
+
+  test('TSTC-47: 날짜 입력 에러 발생 시 에러 메시지를 출력해야 한다', async () => {
+    await DateValidator.dateError();
+    expect(Console.print).toHaveBeenCalledWith(DATE_ERROR_MESSAGE);
+  });
 });
